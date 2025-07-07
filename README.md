@@ -1,4 +1,5 @@
 # *Planning and Reasoning Project - Blood Trasfusion Service*
+## Francesca Andreotti - 1696976
 The **Blood Transfusion Service** project focuses on automating the coordination of blood donations and transfusions in a multi-hospital environment. 
 The goal is to ensure **eligible donations** and **compatible blood delivery**, while minimizing transport costs 
 and prioritizing **urgent transfusions**.
