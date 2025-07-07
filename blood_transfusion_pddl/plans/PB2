@@ -1,0 +1,57 @@
+sat-hadd
+0.0: (accept donor1 )
+1.0: (accept donor2 )
+2.0: (accept donor4 )
+3.0: (reject donor3 )
+4.0: (donate donor1 A pos center1 )
+5.0: (donate donor2 O neg center1 )
+6.0: (donate donor4 O pos center2 )
+7.0: (moveto center1 hospital1 O neg patient1 )
+8.0: (transfuse patient1 hospital1 O neg B neg )
+9.0: (moveto center2 hospital2 O pos patient3 )
+10.0: (transfuse patient3 hospital2 O pos B pos )
+11.0: (moveto center1 hospital2 A pos patient2 )
+12.0: (transfuse patient2 hospital2 A pos A pos )
+13.0: (moveto center1 hospital1 O neg patient4 )
+14.0: (transfuse patient4 hospital1 O neg O neg )
+
+
+opt-blind
+0.0: (moveto center1 hospital1 O neg patient1 )
+1.0: (transfuse patient1 hospital1 O neg B neg )
+2.0: (accept donor4 )
+3.0: (donate donor4 O pos center2 )
+4.0: (moveto center2 hospital2 O pos patient3 )
+5.0: (transfuse patient3 hospital2 O pos B pos )
+6.0: (accept donor1 )
+7.0: (donate donor1 A pos center1 )
+8.0: (moveto center1 hospital2 A pos patient2 )
+9.0: (accept donor2 )
+10.0: (donate donor2 O neg center1 )
+11.0: (moveto center1 hospital1 O neg patient4 )
+12.0: (transfuse patient4 hospital1 O neg O neg )
+13.0: (transfuse patient2 hospital2 A pos A pos )
+14.0: (reject donor3 )
+
+opt-hmax
+0.0: (accept donor1 )
+1.0: (donate donor1 A pos center1 )
+2.0: (moveto center1 hospital2 A pos patient2 )
+3.0: (transfuse patient2 hospital2 A pos A pos )
+4.0: (accept donor4 )
+5.0: (donate donor4 O pos center2 )
+6.0: (moveto center2 hospital2 O pos patient3 )
+7.0: (transfuse patient3 hospital2 O pos B pos )
+8.0: (accept donor2 )
+9.0: (reject donor3 )
+10.0: (donate donor2 O neg center1 )
+11.0: (moveto center1 hospital1 O neg patient4 )
+12.0: (transfuse patient4 hospital1 O neg O neg )
+13.0: (moveto center1 hospital1 O neg patient1 )
+14.0: (transfuse patient1 hospital1 O neg B neg )
+
+
+
+
+
+

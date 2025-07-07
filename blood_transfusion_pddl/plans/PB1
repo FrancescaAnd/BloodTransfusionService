@@ -1,0 +1,28 @@
+sat-hadd
+0.0: (accept donor1 )
+1.0: (reject donor2 )
+2.0: (donate donor1 A neg center1 )
+3.0: (moveto center1 hospital2 A neg patient2 )
+4.0: (transfuse patient1 hospital1 O pos B pos )
+5.0: (transfuse patient2 hospital2 A neg AB neg )
+
+opt-blind
+0.0: (transfuse patient1 hospital1 O pos B pos )
+1.0: (accept donor1 )
+2.0: (donate donor1 A neg center1 )
+3.0: (moveto center1 hospital2 A neg patient2 )
+4.0: (transfuse patient2 hospital2 A neg AB neg )
+5.0: (reject donor2 )
+
+opt-hmax
+0.0: (accept donor1 )
+1.0: (donate donor1 A neg center1 )
+2.0: (moveto center1 hospital2 A neg patient2 )
+3.0: (reject donor2 )
+4.0: (transfuse patient1 hospital1 O pos B pos )
+5.0: (transfuse patient2 hospital2 A neg AB neg )
+
+
+
+
+
