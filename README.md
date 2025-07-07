@@ -11,6 +11,7 @@ The project uses **PDDL** for high-level planning and **Situation Calculus with 
 2. [PDDL Problem Instances](#2-pddl-problem-instances)
 3. [PDDL Planner and Heuristics](#3-pddl-planner-and-heuristics)
 4. [IndiGolog Reasoning Tasks](#4-Indigolog-reasoning-tasks)
+5. [Running the system](#5-running-the-system)
 
 
 
@@ -117,7 +118,7 @@ The project extends beyond planning with **procedural and reactive reasoning** u
   - **Sudden unavailability** of already checked donors
   - **Abrupt changes** in healty conditions of donors
 
-### Running the System
+## 5. Running the System
 For running the system, it is mandatory to copy the `blood_transfusion_pl` repository inside the Indigolog official folder as follows:
 ```graphql
     indigolog
